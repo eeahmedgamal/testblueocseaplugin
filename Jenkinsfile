@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('last') {
+      steps {
+        timeout(time: 7)
+      }
+    }
+
   }
 }
