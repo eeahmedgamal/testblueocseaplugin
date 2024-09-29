@@ -7,17 +7,5 @@ pipeline {
       }
     }
 
-    stage('second') {
-      steps {
-        echo 'hhh'
-      }
-    }
-
-    stage('last') {
-      steps {
-        timeout(time: 7)
-      }
-    }
-
   }
 }
